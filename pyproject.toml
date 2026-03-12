@@ -1,0 +1,25 @@
+[project]
+name = "2026-project-01-llm-playground"
+version = "0.1.0"
+description = "LLM playground for exploring logits ans sampling strategies"
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+"torch>=2.2",
+"transformers>=4.4",
+"tokenizers">=0.15",
+"accelerate>=30",
+"numpy>=1.26",
+"matplotlib>=3.8",
+"rich>=13.7",
+"streamlit>=1.35"
+]
+
+[tool.uv]
+dev-dependencies = [
+"ipython",
+"jupyter",
+"pytest",
+"ruff"
+]
